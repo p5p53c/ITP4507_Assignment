@@ -7,8 +7,8 @@ public class Undo {
 
     public Undo() {}
 
-    public void saveaction(MenuList ml, String action) {
-        this.memento = new Memento(ml, action);
+    public void saveaction(MenuList ml, int staff) {
+        this.memento = new Memento(ml, staff);
         undoList.add(memento);
     }
 
@@ -16,5 +16,6 @@ public class Undo {
         memento = undoList.lastElement();
         memento.restore();
         undoList.remove(memento);
+        System.out.println("remove success");
     }
 }
