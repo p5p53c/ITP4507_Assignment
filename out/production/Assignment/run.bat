@@ -1,4 +1,4 @@
 javac *.java
-java Runmain
+java Main
 DEL *.class
 pause

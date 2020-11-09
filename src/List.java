@@ -1,8 +1,11 @@
 public class List implements Menu {
     public List() {
-        for (int i = 0; i < list.orderList.size(); i++) {
-            System.out.println(list.orderList.get(i).ShowOrder());
-            System.out.println();
+        if (!list.orderList.isEmpty()) {
+            for (int i = 0; i < list.orderList.size(); i++) {
+                System.out.println(list.orderList.get(i).ShowOrder());
+            }
+        } else {
+            System.out.println("No order is available now\n");
         }
     }
 }

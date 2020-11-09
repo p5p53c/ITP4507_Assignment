@@ -13,7 +13,6 @@ public class Edit implements Menu{
             String input = scanner.nextLine();
             Dish dish = (Dish) Class.forName((String)style.get(input.toLowerCase())).newInstance();
             MenuItem item = dish.create();
-            un.saveaction(list, "Edit" + item.getName());
             list.menuList.add(item);
             System.out.println("Menu Updated\n");
         } catch (Exception e) {
