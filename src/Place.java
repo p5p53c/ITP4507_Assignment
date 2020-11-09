@@ -34,7 +34,7 @@ public class Place implements Menu {
             stylename += "Order";
             Order order = (Order) Class.forName(stylename).newInstance();
             MenuOrder place = order.order(dishname);
-            un.saveaction(list, "Order : " + place.getName());
+            un.saveaction(list, "" + place.getName());
             list.orderList.add(place);
             list.menuList.get(i).minus(1);
             System.out.println("Order Placed\n");
