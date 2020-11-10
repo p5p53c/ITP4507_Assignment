@@ -1,14 +1,15 @@
 package UndoPackage;
 
 public class MenuOrder{
-    private String name, drink;
+    private String name, drink, style;
     private int staff, locat;
 
-    public MenuOrder(String name, String drink, int staff, int locat) {
+    public MenuOrder(String name, String drink, int staff, int locat, String style) {
         this.name = name;
         this.drink = drink;
         this.staff = staff;
         this.locat = locat;
+        this.style = style;
     }
 
     public String getName() {
@@ -25,6 +26,10 @@ public class MenuOrder{
 
     public int getLocat() {
         return locat;
+    }
+
+    public String getStyle() {
+        return style;
     }
 
     public String ShowOrder() {

@@ -4,7 +4,7 @@ public class WesternO extends MenuOrder {
     private String side;
 
     public WesternO(String name, String drink, int staff, int locat, String side) {
-        super(name, drink, staff, locat);
+        super(name, drink, staff, locat, "Western");
         this.side = side;
     }
 
