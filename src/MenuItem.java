@@ -1,4 +1,4 @@
-public class MenuItem implements Cloneable {
+public class MenuItem{
     private String name, style;
     private int available, price;
 
@@ -35,9 +35,5 @@ public class MenuItem implements Cloneable {
 
     public String ShowMenu() {
         return null;
-    }
-
-    public Object clone() throws CloneNotSupportedException  {
-        return super.clone();
     }
 }

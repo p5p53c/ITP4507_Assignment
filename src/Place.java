@@ -1,3 +1,4 @@
+import UndoPackage.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -32,11 +33,11 @@ public class Place implements Menu {
                 return;
             }
             stylename += "Order";
+            stylename = "UndoPackage." + stylename;
             Order order = (Order) Class.forName(stylename).newInstance();
             MenuOrder place = order.order(dishname);
             list.orderList.add(place);
             list.menuList.get(i).minus(1);
-            un.saveaction(list, place.getStaff());
             System.out.println("Order Placed\n");
         } catch (Exception e) {
             e.printStackTrace();

@@ -1,4 +1,6 @@
-public class MenuOrder implements Cloneable {
+package UndoPackage;
+
+public class MenuOrder{
     private String name, drink;
     private int staff, locat;
 
@@ -27,9 +29,5 @@ public class MenuOrder implements Cloneable {
 
     public String ShowOrder() {
         return null;
-    }
-
-    public Object clone() throws CloneNotSupportedException  {
-        return super.clone();
     }
 }

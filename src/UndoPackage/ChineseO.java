@@ -1,3 +1,5 @@
+package UndoPackage;
+
 public class ChineseO extends MenuOrder {
 
     public ChineseO(String name, String drink, int staff, int locat) {
