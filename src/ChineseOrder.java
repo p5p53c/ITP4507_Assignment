@@ -25,7 +25,6 @@ public class ChineseOrder implements Order {
         locat = scanner.nextInt();
 
         MenuOrder order = new ChineseO(name, drink, staff, locat);
-        scanner.reset();
         return order;
     }
 }

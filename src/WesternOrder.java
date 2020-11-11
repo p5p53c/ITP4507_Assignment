@@ -36,7 +36,6 @@ public class WesternOrder implements Order {
         locat = scanner.nextInt();
 
         MenuOrder order = new WesternO(name, drink, staff, locat, side);
-        scanner.reset();
         return order;
     }
 }

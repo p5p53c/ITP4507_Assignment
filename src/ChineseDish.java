@@ -18,7 +18,6 @@ public class ChineseDish implements Dish {
         available = scanner.nextInt();
 
         MenuItem item = new Chinese(name, price, available);
-        scanner.reset();
         return item;
     }
 }
