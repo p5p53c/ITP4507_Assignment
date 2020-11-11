@@ -1,7 +1,5 @@
-import java.util.Vector;
-
 public interface Menu {
-    public CareTaker ct = new CareTaker();
-    public Memento memento = new Memento();
-    MenuList list = new MenuList();
+    public CareTaker ct = new CareTaker();//CareTaker
+    public Memento memento = new Memento();//Memento
+    MenuList list = new MenuList();//MenuList
 }

@@ -1,4 +1,5 @@
 public class Done implements Menu {
+    //mark the first order is done
     public Done() {
         System.out.println(list.orderList.get(0).ShowOrder());
         list.orderList.remove(0);

@@ -1,7 +1,9 @@
 public class MenuOrder{
+    //declaring variables
     private String name, drink, style;
     private int staff, locat;
 
+    //Constructor
     public MenuOrder(String name, String drink, int staff, int locat, String style) {
         this.name = name;
         this.drink = drink;
@@ -10,6 +12,7 @@ public class MenuOrder{
         this.style = style;
     }
 
+    //getter start
     public String getName() {
         return name;
     }
@@ -29,7 +32,9 @@ public class MenuOrder{
     public String getStyle() {
         return style;
     }
+    //getter end
 
+    //show the order data
     public String ShowOrder() {
         return null;
     }
