@@ -1,39 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2539d4a2-10a2-4030-96cb-9909cd9766bd" name="Default Changelist" comment="change menuList from Vector to Array">
+    <list default="true" id="2539d4a2-10a2-4030-96cb-9909cd9766bd" name="Default Changelist" comment="Optimization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Cancel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Cancel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment/ChineseDish.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/ChineseDish.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Done.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Done.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment/MenuList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/MenuList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Place.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Place.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Show.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Show.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment/UndoPackage/ChineseO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment/UndoPackage/ChineseOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment/UndoPackage/MenuOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment/UndoPackage/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment/UndoPackage/WesternO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment/UndoPackage/WesternOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment/UndoPackage/deleteclass.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cancel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cancel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MenuList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChineseOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChineseOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Place.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Place.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UndoPackage/ChineseO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UndoPackage/ChineseO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChineseO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UndoPackage/ChineseOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UndoPackage/ChineseOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChineseOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UndoPackage/MenuOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UndoPackage/MenuOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UndoPackage/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UndoPackage/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UndoPackage/WesternO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UndoPackage/WesternO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WesternO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UndoPackage/WesternOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UndoPackage/WesternOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WesternOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UndoPackage/deleteclass.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WesternOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WesternOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +103,7 @@
       <workItem from="1604937885189" duration="615000" />
       <workItem from="1604982087670" duration="5133000" />
       <workItem from="1605026303240" duration="205000" />
-      <workItem from="1605074126708" duration="6335000" />
+      <workItem from="1605074126708" duration="8027000" />
     </task>
     <task id="LOCAL-00001" summary="BackU心">
       <created>1604929409967</created>
@@ -159,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605075945174</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Done Final ver.">
+      <created>1605080962354</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605080962354</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Done Final ver.2">
+      <created>1605081107106</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605081107106</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +182,9 @@
     <MESSAGE value="Start Memento" />
     <MESSAGE value="Undo Finish(hard code)" />
     <MESSAGE value="change menuList from Vector to Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="change menuList from Vector to Array" />
+    <MESSAGE value="Done Final ver." />
+    <MESSAGE value="Done Final ver.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done Final ver.2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1605078399205">
@@ -209,30 +199,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="704" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1604927306595" />
-    <state x="429" y="122" key="CommitChangelistDialog2" timestamp="1605080960966">
+    <state x="429" y="122" key="CommitChangelistDialog2" timestamp="1605084731887">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="429" y="122" key="CommitChangelistDialog2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605080960966" />
+    <state x="429" y="122" key="CommitChangelistDialog2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605084731887" />
     <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1604983053408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1604983053408" />
-    <state width="1876" height="262" key="GridCell.Tab.0.bottom" timestamp="1605080798668">
+    <state width="1876" height="278" key="GridCell.Tab.0.bottom" timestamp="1605085352562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605080798668" />
-    <state width="1876" height="262" key="GridCell.Tab.0.center" timestamp="1605080798668">
+    <state width="1876" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605085352562" />
+    <state width="1876" height="278" key="GridCell.Tab.0.center" timestamp="1605085352562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="262" key="GridCell.Tab.0.center/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605080798668" />
-    <state width="1876" height="262" key="GridCell.Tab.0.left" timestamp="1605080798668">
+    <state width="1876" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605085352562" />
+    <state width="1876" height="278" key="GridCell.Tab.0.left" timestamp="1605085352561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="262" key="GridCell.Tab.0.left/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605080798668" />
-    <state width="1876" height="262" key="GridCell.Tab.0.right" timestamp="1605080798668">
+    <state width="1876" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605085352561" />
+    <state width="1876" height="278" key="GridCell.Tab.0.right" timestamp="1605085352562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="262" key="GridCell.Tab.0.right/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605080798668" />
+    <state width="1876" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605085352562" />
     <state width="1876" height="342" key="GridCell.Tab.1.bottom" timestamp="1605079148795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -249,14 +239,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="342" key="GridCell.Tab.1.right/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605079148795" />
-    <state x="645" y="230" key="RollbackChangesDialog" timestamp="1604915457006">
+    <state x="645" y="230" key="RollbackChangesDialog" timestamp="1605085191439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="230" key="RollbackChangesDialog/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1604915457006" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605080973747">
+    <state x="645" y="230" key="RollbackChangesDialog/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605085191439" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605081113789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605080973747" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605081113789" />
     <state x="759" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604982596917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -273,20 +263,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1604734541185" />
-    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1604730189651">
+    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1605084643836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1604730189651" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Show.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605084643836" />
   </component>
 </project>

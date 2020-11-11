@@ -20,12 +20,13 @@ public class Main {
             System.out.println("e = Edit menu, s = Show menu, p = Place order, c = Cancel order,");
             System.out.println("l = List orders, d = order is Done, q = Quit");
             try {
-                input = scanner.nextLine();
-                if (input.toLowerCase().equals("q")) {
+                input = scanner.nextLine().toLowerCase();
+                System.out.println();
+                if (input.equals("q")) {
                     cont = false;
                     continue;
                 }
-                Class.forName((String) commandInput.get(input.toLowerCase())).newInstance();
+                Class.forName((String) commandInput.get(input)).newInstance();
             } catch (Exception e) {
                 System.out.println("Incorrect command");
             }

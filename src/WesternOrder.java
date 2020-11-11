@@ -27,9 +27,9 @@ public class WesternOrder implements Order {
         sideInput.put("f", "French fries");
 
         System.out.print("side : Rice, Spaghetti, French fries (r | s | f) : ");
-        side = (String)sideInput.get(scanner.nextLine());
+        side = (String)sideInput.get(scanner.nextLine().toLowerCase());
         System.out.print("tea or coffee, hot or iced (ht| it | hc | ic):");
-        drink = (String)drinkInput.get(scanner.nextLine());
+        drink = (String)drinkInput.get(scanner.nextLine().toLowerCase());
         System.out.print("Staff Number : ");
         staff = scanner.nextInt();
         System.out.print("Office Location : ");

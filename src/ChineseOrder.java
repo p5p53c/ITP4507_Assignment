@@ -18,7 +18,7 @@ public class ChineseOrder implements Order {
         drinkInput.put("i", "Iced Tea");
 
         System.out.print("Oolong Tea : hot or iced (h | i) : ");
-        drink = (String)drinkInput.get(scanner.nextLine());
+        drink = (String)drinkInput.get(scanner.nextLine().toLowerCase());
         System.out.print("Staff Number : ");
         staff = scanner.nextInt();
         System.out.print("Office Location : ");

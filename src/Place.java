@@ -14,8 +14,8 @@ public class Place implements Menu {
         System.out.println("Place Order");
         System.out.print("Chinese or Western (c | w) : ");
         try {
-            String input = scanner.nextLine();
-            stylename = (String)style.get(input.toLowerCase());
+            String input = scanner.nextLine().toLowerCase();
+            stylename = (String)style.get(input);
             int i;
             for (i = 0; i < list.menuList.length; i++) {
                 if (stylename.equals(list.menuList[i].getStyle())) {
