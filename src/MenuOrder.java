@@ -1,5 +1,3 @@
-package UndoPackage;
-
 public class MenuOrder{
     private String name, drink, style;
     private int staff, locat;

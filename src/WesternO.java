@@ -1,5 +1,3 @@
-package UndoPackage;
-
 public class WesternO extends MenuOrder {
     private String side;
 
