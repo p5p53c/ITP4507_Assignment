@@ -209,10 +209,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="704" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1604927306595" />
-    <state x="429" y="122" key="CommitChangelistDialog2" timestamp="1605079908479">
+    <state x="429" y="122" key="CommitChangelistDialog2" timestamp="1605080960966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="429" y="122" key="CommitChangelistDialog2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605079908479" />
+    <state x="429" y="122" key="CommitChangelistDialog2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605080960966" />
     <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1604983053408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -253,6 +253,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="645" y="230" key="RollbackChangesDialog/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1604915457006" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605080973747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605080973747" />
     <state x="759" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604982596917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
