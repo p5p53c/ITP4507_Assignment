@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ChineseDish implements Dish {
     private String name;
-    public static Scanner scanner = new Scanner(System.in);
+    public Scanner scanner = new Scanner(System.in);
     public ChineseDish() {
     }
 

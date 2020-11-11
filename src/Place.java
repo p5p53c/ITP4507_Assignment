@@ -12,19 +12,16 @@ public class Place implements Menu {
         style.put("c", "Chinese");
         style.put("w", "Western");
 
-        if (list.menuList.isEmpty()) {
-            System.out.println("No menu available now\n");
-            return;
-        }
+        System.out.println("Place Order");
         System.out.print("Chinese or Western (c | w) : ");
         try {
             String input = scanner.nextLine();
             stylename = (String)style.get(input.toLowerCase());
             int i;
-            for (i = 0; i < list.menuList.size(); i++) {
-                if (stylename.equals(list.menuList.get(i).getStyle())) {
-                    dishname = list.menuList.get(i).getName();
-                    available = list.menuList.get(i).getAvailable();
+            for (i = 0; i < list.menuList.length; i++) {
+                if (stylename.equals(list.menuList[i].getStyle())) {
+                    dishname = list.menuList[i].getName();
+                    available = list.menuList[i].getAvailable();
                     break;
                 }
             }
@@ -37,7 +34,7 @@ public class Place implements Menu {
             Order order = (Order) Class.forName(stylename).newInstance();
             MenuOrder place = order.order(dishname);
             list.orderList.add(place);
-            list.menuList.get(i).minus(1);
+            list.menuList[i].minus(1);
             System.out.println("Order Placed\n");
         } catch (Exception e) {
             e.printStackTrace();

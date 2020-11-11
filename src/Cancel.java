@@ -7,7 +7,7 @@ public class Cancel implements Menu {
 
     public Cancel() {
         System.out.println("Cancel Order");
-        System.out.print("Staff Number");
+        System.out.print("Staff Number : ");
         staff = scanner.nextInt();
         for (int i = 0; i <= list.orderList.size(); i++) {
             if (staff == list.orderList.get(i).getStaff()) {
@@ -17,9 +17,9 @@ public class Cancel implements Menu {
                 break;
             }
         }
-        for (int i = 0; i <= list.menuList.size(); i++) {
-            if (style.equals(list.menuList.get(i).getStyle())) {
-                list.menuList.get(i).add(1);
+        for (int i = 0; i <= list.menuList.length; i++) {
+            if (style.equals(list.menuList[i].getStyle())) {
+                list.menuList[i].add(1);
                 break;
             }
         }
