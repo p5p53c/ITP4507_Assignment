@@ -3,14 +3,12 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class ChineseOrder implements Order {
-    private String name;
     public Scanner scanner = new Scanner(System.in);
 
     public ChineseOrder() {}
 
     @Override
     public MenuOrder order(String name) {
-        this.name = name;
         String drink;
         int staff, locat;
         Map drinkInput = new HashMap();

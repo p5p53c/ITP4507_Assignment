@@ -3,7 +3,6 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class WesternOrder implements Order {
-    private String name;
     public Scanner scanner = new Scanner(System.in);
 
     public WesternOrder() {
@@ -11,7 +10,6 @@ public class WesternOrder implements Order {
 
     @Override
     public MenuOrder order(String name) {
-        this.name = name;
         String drink, side;
         int staff, locat;
 

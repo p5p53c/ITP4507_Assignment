@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Cancel implements Menu {
     public Scanner scanner = new Scanner(System.in);
     private int staff;
-    private String style;
 
     public Cancel() {
         System.out.println("Cancel Order");

@@ -18,10 +18,6 @@ public class Memento {
         }
     }
 
-    public MenuList getList() {
-        return list;
-    }
-
     public void restore(int staff) {
         String style = "";
         for (int i = 0; i < orderList.size(); i++) {
