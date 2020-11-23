@@ -3,7 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="2539d4a2-10a2-4030-96cb-9909cd9766bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Cancel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Cancel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/CareTaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/CareTaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Chinese.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Chinese.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/ChineseDish.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/ChineseDish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/ChineseO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/ChineseO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/ChineseOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/ChineseOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Done.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Done.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Edit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Edit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/List.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Memento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Memento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/MenuList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/MenuList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/MenuOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/MenuOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Place.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Place.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/Western.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/Western.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/WesternDish.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/WesternDish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/WesternO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/WesternO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment/WesternOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment/WesternOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Memento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Memento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/src/run.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +121,8 @@
       <workItem from="1604982087670" duration="5133000" />
       <workItem from="1605026303240" duration="205000" />
       <workItem from="1605074126708" duration="13491000" />
-      <workItem from="1605163477871" duration="5323000" />
+      <workItem from="1605163477871" duration="6388000" />
+      <workItem from="1605185203250" duration="5016000" />
     </task>
     <task id="LOCAL-00001" summary="BackU心">
       <created>1604929409967</created>
@@ -172,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605091024526</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Remove&#10;class Menu remove memento variable">
+      <created>1605170908821</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605170908821</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +242,8 @@
     <MESSAGE value="Remove scanner.reset();" />
     <MESSAGE value="Remove&#10;class Cancel remove String style&#10;class ChineseOrder remove String name&#10;class Memento remove getList()&#10;class Menu remove Vector&lt;MenuItem&gt; menuList&#10;class WesternOrder remove String name" />
     <MESSAGE value="Add comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add comment" />
+    <MESSAGE value="Remove&#10;class Menu remove memento variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove&#10;class Menu remove memento variable" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1605078399205">
@@ -228,30 +258,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="704" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1604927306595" />
-    <state x="429" y="103" key="CommitChangelistDialog2" timestamp="1605091023088">
+    <state x="429" y="103" key="CommitChangelistDialog2" timestamp="1605170907979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="429" y="103" key="CommitChangelistDialog2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605091023088" />
+    <state x="429" y="103" key="CommitChangelistDialog2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605170907979" />
     <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1604983053408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="261" key="FileChooserDialogImpl/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1604983053408" />
-    <state width="1876" height="342" key="GridCell.Tab.0.bottom" timestamp="1605091051458">
+    <state width="1876" height="277" key="GridCell.Tab.0.bottom" timestamp="1605175162023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605091051458" />
-    <state width="1876" height="342" key="GridCell.Tab.0.center" timestamp="1605091051458">
+    <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605175162023" />
+    <state width="1876" height="277" key="GridCell.Tab.0.center" timestamp="1605175162023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.center/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605091051458" />
-    <state width="1876" height="342" key="GridCell.Tab.0.left" timestamp="1605091051458">
+    <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605175162023" />
+    <state width="1876" height="277" key="GridCell.Tab.0.left" timestamp="1605175162023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.left/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605091051458" />
-    <state width="1876" height="342" key="GridCell.Tab.0.right" timestamp="1605091051458">
+    <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605175162023" />
+    <state width="1876" height="277" key="GridCell.Tab.0.right" timestamp="1605175162023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.right/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605091051458" />
+    <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605175162023" />
     <state width="1876" height="342" key="GridCell.Tab.1.bottom" timestamp="1605091051458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -276,10 +306,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605085984823" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605091034889">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605170913377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605091034889" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.50.1280.984@0.0.1920.1040" timestamp="1605170913377" />
     <state x="759" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604982596917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

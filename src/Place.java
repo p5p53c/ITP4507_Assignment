@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Place implements Menu {
     public Place() {
+        
+    }
+    public void execute() {
         //declaring variables
         Scanner scanner = new Scanner(System.in);
         String stylename, dishname = "";

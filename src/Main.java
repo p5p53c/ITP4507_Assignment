@@ -34,7 +34,8 @@ public class Main {
                     continue;
                 }
                 //execute the user command
-                Class.forName((String) commandInput.get(input)).newInstance();
+                Menu exe = (Menu) Class.forName((String) commandInput.get(input)).newInstance();
+                exe.execute();
             } catch (Exception e) {
                 System.out.println("Incorrect Main menu command");
             }

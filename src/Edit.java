@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Edit implements Menu{
     public Edit() {
+        
+    }
+
+    public void execute() {
         //declaring variables
         Scanner scanner = new Scanner(System.in);//Scanner
         //setup command

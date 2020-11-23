@@ -5,9 +5,6 @@ public class Memento {
     private MenuList list;
     private Vector<MenuOrder> orderList = new Vector<MenuOrder>();
 
-    //empty Constructor
-    public Memento() {}
-
     //Constructor
     public Memento(MenuList list) {
         //backup MenuList

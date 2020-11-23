@@ -4,6 +4,9 @@ public class Cancel implements Menu {
     public Scanner scanner = new Scanner(System.in);
 
     public Cancel() {
+        
+    }
+    public void execute() {
         //declaring variables
         int staff;
         //ask user want to cancel which order
