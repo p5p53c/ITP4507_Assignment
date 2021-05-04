@@ -12,5 +12,7 @@ Functions:
 Apply the following patterns in your system design
 ---------------------------------------------------
  Command Pattern to provide the “Edit menu”, “Show menu”, “Make order”, “Cancel order”, “List outstanding orders”, “Mark order as completed” functions
+
  Factory Method or Abstract Factory Pattern to create different kinds of Command objects and different kinds of Lunch Set.
+
  Memento Pattern to support the “Cancel order” function
